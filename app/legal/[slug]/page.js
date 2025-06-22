@@ -9,7 +9,7 @@ export default async function LegalDetail({ params }) {
   if (!legal) return <NotFound />;
 
   return (
-    <div className="w-full h-full py-16">
+    <div className="w-full h-full py-12 md:py-16">
       <LegalContent legal={legal} />
     </div>
   );

@@ -7,7 +7,7 @@ export default function LegalHeader({ title, date }) {
     <>
       <div className="flex flex-col justify-center items-center w-full">
         <div className="grid grid-cols-3 w-full md:max-w-3xl">
-          <div className="flex w-full col-span-3 px-16 mb-8">
+          <div className="flex w-full col-span-3 px-10 ps-6 md:px-16 mb-12 md:mb-8">
             <div className="flex items-center justify-start">
               <Button
                 size="default"
@@ -30,7 +30,7 @@ export default function LegalHeader({ title, date }) {
           </div>
         </div>
       </div>
-      <div className="flex flex-col text-neutral-300 justify-center items-center w-full mt-8">
+      <div className="flex flex-col text-neutral-300 justify-center items-center w-full mt-8 mb-4 md:mb-0">
         <h2 className="w-full md:max-w-3xl text-3xl md:text-4xl text-center">
           {title}
         </h2>

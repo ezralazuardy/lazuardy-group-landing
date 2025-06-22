@@ -1,4 +1,5 @@
 "use client";
+
 import { useEffect } from "react";
 
 export default function LegalText({ content }) {
@@ -14,7 +15,7 @@ export default function LegalText({ content }) {
     <>
       <div className="flex flex-col items-center w-full">
         <div
-          className="content w-full max-w-2xl text-neutral-400 leading-snug font-light text-sm text-justify"
+          className="content w-full max-w-2xl px-2 md:px-0 text-neutral-400 leading-snug font-light text-sm text-justify"
           dangerouslySetInnerHTML={{ __html: content }}
         />
       </div>
