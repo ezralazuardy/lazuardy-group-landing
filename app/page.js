@@ -2,19 +2,21 @@ import Image from "next/image";
 import Link from "next/link";
 import { EmailSubscription } from "@/components/ui/email-subscription";
 import { Meteors } from "@/components/magicui/meteors";
+import lazuardy from "@/public/images/logo/lazuardy.png";
 
 export default function Home() {
   return (
-    <div className="relative grid items-center justify-items-center h-screen gap-16 sm:p-20 overflow-hidden">
+    <div className="relative grid items-center justify-items-center h-screen md:gap-16 p-0 md:p-20 overflow-hidden">
       <Meteors
         number={30}
         className="absolute inset-0 z-0 pointer-events-none"
       />
-      <main className="relative z-10 flex flex-col items-start w-full min-w-md max-w-md px-8 pt-22">
+      <main className="relative z-10 flex flex-col items-start w-full md:min-w-md md:max-w-md px-10 md:px-6 pt-8 md:pt-14">
         <Image
           className="ms-0.5"
-          src="/images/logo/lazuardy.png"
           alt="Lazuardy Logo"
+          placeholder="blur"
+          src={lazuardy}
           width={120}
           height={38}
           priority
@@ -44,7 +46,7 @@ export default function Home() {
           </p>
         </div>
       </main>
-      <footer className="relative z-10 row-start-4 flex gap-8 items-start w-full min-w-md max-w-md px-8">
+      <footer className="relative z-10 md:row-start-4 flex md:gap-8 items-start w-full md:min-w-md md:max-w-md px-10 md:px-6 pb-6 md:pb-0">
         <span className="flex w-full text-xs font-light text-neutral-400">
           &copy; {new Date().getFullYear()} PT Lazuardy Innovation Group
         </span>
