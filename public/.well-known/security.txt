@@ -1,0 +1,7 @@
+Contact: mailto:contact@lazuardy.group
+Encryption: https://lazuardy.group/pgp-key.txt
+Acknowledgments: https://lazuardy.group/contact
+Policy: https://lazuardy.group/legal/privacy-policy
+Preferred-Languages: en, es
+Hiring: https://lazuardy.group/contact
+Expires: 2026-12-31T23:59:59.000Z
